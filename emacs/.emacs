@@ -70,11 +70,11 @@
 ;; ====================
 ;; insert date and time
 
-(defvar current-date-time-format "%Y.%m.%d-%H:%M"
+(defvar current-date-time-format "%Y-%m-%d-%H:%M"
   "Format of date to insert with `insert-current-date-time' func
 See help of `format-time-string' for possible replacements")
 
-(defvar current-date-format "%Y.%m.%d"
+(defvar current-date-format "%Y-%m-%d"
   "Format of date to insert with `insert-current-date' func.
 Note the weekly scope of the command's precision.")
 
