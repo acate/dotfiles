@@ -1,0 +1,50 @@
+# List of howto*.* files for convenience.  These are files that adc made to document projects.  
+# These usually end in .txt or .org extension.
+#
+# To append, do in bash:
+#   find -L ~/. -type d -name zotero -prune -o -type f -name "howto_*.*" -print | grep -v "~" >> .list_of_howto_files
+#
+# -L flag:		Follow symlinks
+# -prune, etc. flags: 	Avoid the several files in zotero storage that begin with "howto*"
+#                           Also, it saves time for find not to descend into zotero dir.
+# grep -v "~": 		Exclude emacs backup files.
+#
+# 2018-01-21 by adc
+
+# 2018-01-21
+/home/anthony/./Google Drive/funding/neiR21/first_submission_2015-10-16/howto_nei_2015-10_orgMode.odt
+/home/anthony/./Google Drive/funding/neiR21/first_submission_2015-10-16/howto_nei_2015-10_orgMode.pdf
+/home/anthony/./Google Drive/funding/neiR21/first_submission_2015-10-16/howto_nei_2015-10_orgMode.tex
+/home/anthony/./Google Drive/funding/neiR21/first_submission_2015-10-16/howto_nei_2015-10_orgMode.txt
+/home/anthony/./Google Drive/funding/neiR21/first_submission_2015-10-16/older_versions/howto_nei_2015-10.txt
+/home/anthony/./Google Drive/teaching/NSB_2018/howto_NSB_2018.org
+/home/anthony/./Google Drive/teaching/past_courses/CogPsych/CogPsych_2017/in-class/images/howto_images_of_cognition.html
+/home/anthony/./Google Drive/teaching/past_courses/CogPsych/CogPsych_2017/in-class/images/howto_images_of_cognition.org
+/home/anthony/./Google Drive/teaching/past_courses/CogPsych/CogPsych_2017/in-class/surrealism/howto_surrealism.html
+/home/anthony/./Google Drive/teaching/past_courses/CogPsych/CogPsych_2017/in-class/surrealism/howto_surrealism.org
+/home/anthony/./Google Drive/teaching/past_courses/CogPsych/CogPsych_2017/in-class/words/howto_words.org
+/home/anthony/./Google Drive/teaching/past_courses/CogPsych/CogPsych_2017/textbook_quizzes/howto_convert_Canvas_quiz_xml.html
+/home/anthony/./Google Drive/teaching/past_courses/CogPsych/CogPsych_2017/textbook_quizzes/howto_convert_Canvas_quiz_xml.org
+/home/anthony/./Google Drive/teaching/past_courses/CogPsych/CogPsych_2017/writing_assignment/howto_neuroimaging.html
+/home/anthony/./Google Drive/teaching/past_courses/CogPsych/CogPsych_2017/writing_assignment/howto_neuroimaging.org
+/home/anthony/./Google Drive/teaching/past_courses/NSB/howto_revealjs.docx
+/home/anthony/./Google Drive/teaching/past_courses/NSB/howto_revealjs.html
+/home/anthony/./Google Drive/teaching/past_courses/NSB/howto_revealjs.md
+/home/anthony/./Google Drive/teaching/past_courses/NSB/howto_revealjs.org
+/home/anthony/./Google Drive/teaching/past_courses/NSB/howto_revealjs.pdf
+/home/anthony/./Google Drive/teaching/past_courses/NSB/howto_revealjs_DRAFT.html
+/home/anthony/./Google Drive/teaching/past_courses/NSB/howto_revealjs_DRAFT.org
+/home/anthony/./Google Drive/teaching/SP_2018/howto_SP_2018.html
+/home/anthony/./Google Drive/teaching/SP_2018/howto_SP_2018.org
+/home/anthony/./Google Drive/VNLab/code/MATLAB/LLID/howto_LID.txt
+/home/anthony/./Google Drive/VNLab/studies/HolesFMRI/summaries/man_HolesFMRI_2015/howto_man_HolesFMRI.org
+/home/anthony/./Google Drive/VNLab/studies/HolesFMRI/summaries/man_HolesFMRI_2015/howto_man_HolesFMRI.pdf
+/home/anthony/./Google Drive/VNLab/studies/HolesFMRI/summaries/man_HolesFMRI_2015/howto_man_HolesFMRI.tex
+/home/anthony/./Google Drive/VNLab/studies/ipsNumMeta/doc/howto_ipsNumMeta.txt
+/home/anthony/./Google Drive/VNLab/studies/ipsNumMeta/summaries/ps2017/howto_ipsNumMeta_talk.html
+/home/anthony/./Google Drive/VNLab/studies/ipsNumMeta/summaries/ps2017/howto_ipsNumMeta_talk.org
+/home/anthony/./Google Drive/VNLab/studies/LLID/doug/howto_LID.txt
+/home/anthony/./Google Drive/VNLab/studies/LLID/howto_LID.txt
+/home/anthony/./Dropbox/anthony/babynames/howto_babynames_2014.txt
+/home/anthony/./Dropbox/work/etymology/howto_etymology.txt
+/home/anthony/./Dropbox/work/visuotopy_meta-analysis/hcnlab222/howto_vamca_visuotopy.txt

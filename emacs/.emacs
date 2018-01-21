@@ -105,7 +105,7 @@ Uses `current-date-time-format' for the formatting the date/time."
   (save-excursion  ; this restores point to orig. location before inserting
     (re-search-backward "^<\\([^/].*\\)>")
    )
-  (insert (concat "\n\n</" (match-string 1) ">\n"))
+  (insert (concat "\n\n\n</" (match-string 1) ">\n"))
   ;; move point back (up) this many lines
   (forward-line -3)
   )

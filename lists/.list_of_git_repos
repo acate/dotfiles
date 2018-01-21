@@ -1,0 +1,29 @@
+# Convenient list of current git repos.  
+# Append to this list by doing in bash:
+#   find -L ~/. -type d -name ".git"
+
+# 2017-01-21
+
+
+/home/anthony/./Google Drive/extra_vnlab/lab/adon/.git
+/home/anthony/./Google Drive/extra_vnlab/lab/lihi/lihi_diego/.git
+/home/anthony/./Google Drive/teaching/NSB_2018/.git
+/home/anthony/./Google Drive/teaching/past_courses/CogPsych/Cog_4114_AllYears/in-class_assignments/perception/color_coords/.git
+/home/anthony/./Google Drive/teaching/past_courses/CogPsych/CogPsych_2017/in-class/color/.git
+/home/anthony/./Google Drive/teaching/past_courses/CogPsych/CogPsych_2017/in-class/images/.git
+/home/anthony/./Google Drive/teaching/past_courses/CogPsych/CogPsych_2017/in-class/surrealism/.git
+/home/anthony/./Google Drive/teaching/past_courses/CogPsych/CogPsych_2017/in-class/words/.git
+/home/anthony/./Google Drive/teaching/past_courses/CogPsych/CogPsych_2017/textbook_quizzes/.git
+/home/anthony/./Google Drive/teaching/past_courses/CogPsych/CogPsych_2017/writing_assignment/.git
+/home/anthony/./Google Drive/teaching/SP_2018/.git
+/home/anthony/./Google Drive/tmp/usb_drive_BACKUP/lab/adon/.git
+/home/anthony/./Google Drive/tmp/usb_drive_BACKUP/lab/lihi/lihi_10/.git
+/home/anthony/./Google Drive/tmp/usb_drive_BACKUP/lab/lihi/lihi_diego/.git
+/home/anthony/./Google Drive/tmp/usb_drive_BACKUP/lab/steph/NamingApp/.git
+/home/anthony/./Google Drive/VNLab/studies/ipsNumMeta/summaries/ps2017/.git
+/home/anthony/./Google Drive/VNLab/studies/ssor/data/ssorDiego/ssor/.git
+/home/anthony/./Google Drive/VNLab/studies/vns/lihi/lihi_diego/.git
+/home/anthony/./.emacs.d/.git
+/home/anthony/./dotfiles/emacs/.emacs.d/.git
+/home/anthony/./dotfiles/.git
+/home/anthony/./Dropbox/work/code/elisp/.git
