@@ -12,6 +12,10 @@
 ;;(setq default-directory "C:/Users/acate/Documents/")
 ;;(cd "C:/Users/acate/Documents/")
 
+;; 2018-03-07 added by adc
+;; To get better error messages
+(setq debug-on-error t)
+
 ;; for UbuntuVM on Macbook; will fail if not running as su (2018.01.13 ??)
 ;; (2018.01.13 Was originally set to "/media/sf_acate/"
 (setq default-directory "~/")
@@ -21,15 +25,8 @@
 
 ;; 2018.01.13 adc added, throwing caution to wind and using the functions that just seem right:
 (setq ac_diary_file "~/Dropbox/anthony/writing/diary.txt")
-
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(initial-buffer-choice "~/Dropbox/work/science.txt")
- '(show-paren-mode t)
- '(tool-bar-mode nil))
+;; uncomment if problem with "custom set variables" definition of initial-buffer-choice:
+(setq initial-buffer-choice "~/Dropbox/work/science.txt")
 
 ;; 2018.01.13 adc added to (finally -- long-time goal!) automatically open commonly-used file and put point at end.
 ;; With help from https://learnxinyminutes.com/docs/elisp/
@@ -42,13 +39,7 @@
   (find-file initial-buffer-choice)
   (end-of-buffer))
 
-(custom-set-faces
- ;; custom-set-faces was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(font-lock-comment-face ((((class color) (min-colors 88) (background light)) (:foreground "green4"))))
- '(org-level-5 ((t (:foreground "dark goldenrod")))))
+
 
 ;; adc added 2017.07.17
 (add-hook 'org-mode-hook 'toggle-truncate-lines)
@@ -59,6 +50,10 @@
 
 ;; adc added 2015.11.29
 (show-paren-mode 1)
+
+;; adc added 2018-04-02
+;; (add-hook 'text-mode-hook 'disable-theme) ;; DOESN'T WORK 2018-04-02-12:15
+   
 
 ;; adc added 2015.1.7 based on http://comments.gmane.org/gmane.emacs.nxml.general/2015
 ;; only a problem for Windows office PC
@@ -163,3 +158,19 @@ Uses `current-date-time-format' for the formatting the date/time."
     ;; For important compatibility libraries like cl-lib
     (add-to-list 'package-archives '("gnu" . (concat proto "://elpa.gnu.org/packages/")))))
 (package-initialize)
+
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(custom-enabled-themes (quote (tango-dark)))
+ '(initial-buffer-choice "~/Dropbox/work/science.txt")
+ '(show-paren-mode t)
+ '(tool-bar-mode nil))
+(custom-set-faces
+ ;; custom-set-faces was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ )
