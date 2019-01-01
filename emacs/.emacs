@@ -159,6 +159,17 @@ Uses `current-date-time-format' for the formatting the date/time."
     (add-to-list 'package-archives '("gnu" . (concat proto "://elpa.gnu.org/packages/")))))
 (package-initialize)
 
+;; adc added 2018-12-20
+;; via melpa
+(require 'ac-octave)
+(add-hook 'octave-mode-hook
+          '(lambda () (ac-octave-setup)))
+
+;; adc added 2018-12-22
+;; via melpa
+(require 'ess-r-mode)
+
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -166,6 +177,7 @@ Uses `current-date-time-format' for the formatting the date/time."
  ;; If there is more than one, they won't work right.
  '(custom-enabled-themes (quote (tango-dark)))
  '(initial-buffer-choice "~/Dropbox/work/science.txt")
+ '(package-selected-packages (quote (ac-octave ess tiny ranger markdown-mode)))
  '(show-paren-mode t)
  '(tool-bar-mode nil))
 (custom-set-faces

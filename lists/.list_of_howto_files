@@ -1,17 +1,3 @@
-# List of howto*.* files for convenience.  These are files that adc made to document projects.  
-# These usually end in .txt or .org extension.
-#
-# To append, do in bash:
-#   find -L ~/. -type d -name zotero -prune -o -type f -name "howto*.org" -print -o -name "howto*.txt" -print | grep -v "~" >> .list_of_howto_files
-#
-# -L flag:		Follow symlinks
-# -prune, etc. flags: 	Avoid the several files in zotero storage that begin with "howto*"
-#                           Also, it saves time for find not to descend into zotero dir.
-# grep -v "~": 		Exclude emacs backup files.
-#
-# 2018-01-21 by adc
-
-# 2018-12-31
 /home/anthony/./Google Drive/admin/bds/howto_bds_documents.org
 /home/anthony/./Google Drive/code/ac_reveal.js/howto_revealjs.org
 /home/anthony/./Google Drive/code/ac_reveal.js/howto_revealjs_DRAFT.org
@@ -28,6 +14,16 @@
 /home/anthony/./Google Drive/teaching/CogPsych/CogPsych_2018/in-class/saliency/howto_saliency.org
 /home/anthony/./Google Drive/teaching/NSB/NSB_2018_Fall/howto_NSB_2018_Fall.org
 /home/anthony/./Google Drive/teaching/NSB/NSB_2018_Spring/howto_NSB_2018.org
+/home/anthony/./Google Drive/teaching/past_courses/CogPsych/CogPsych_2017/in-class/images/howto_images_of_cognition.org
+/home/anthony/./Google Drive/teaching/past_courses/CogPsych/CogPsych_2017/in-class/surrealism/howto_surrealism.org
+/home/anthony/./Google Drive/teaching/past_courses/CogPsych/CogPsych_2017/in-class/words/howto_words.org
+/home/anthony/./Google Drive/teaching/past_courses/CogPsych/CogPsych_2017/textbook_quizzes/howto_convert_Canvas_quiz_xml.org
+/home/anthony/./Google Drive/teaching/past_courses/CogPsych/CogPsych_2017/writing_assignment/howto_neuroimaging.org
+/home/anthony/./Google Drive/teaching/past_courses/NSB/NSB_2018/howto_NSB_2018.org
+/home/anthony/./Google Drive/teaching/past_courses/SP/SP_2018/howto_SP_2018.org
+/home/anthony/./Google Drive/teaching/past_courses/SP/SP_2018/in-class/color/howto_in-class_color.org
+/home/anthony/./Google Drive/teaching/past_courses/SP/SP_2018/in-class/motion_cinema/howto_motion_cinema.org
+/home/anthony/./Google Drive/teaching/past_courses/SP/SP_2018/writing_assignment/howto_writing_assignment_SP_2018.org
 /home/anthony/./Google Drive/teaching/SP/SP_2018/howto_SP_2018.org
 /home/anthony/./Google Drive/teaching/SP/SP_2018/in-class/color/howto_in-class_color.org
 /home/anthony/./Google Drive/teaching/SP/SP_2018/in-class/motion_cinema/howto_motion_cinema.org
@@ -50,4 +46,3 @@
 /home/anthony/./Dropbox/work/etymology/howto_etymology.txt
 /home/anthony/./Dropbox/work/sboj/anno2018/howto_sboj_2018.org
 /home/anthony/./Dropbox/work/visuotopy_meta-analysis/hcnlab222/howto_vamca_visuotopy.txt
-

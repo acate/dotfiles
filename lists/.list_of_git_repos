@@ -1,8 +1,3 @@
-# Convenient list of current git repos.  
-# Append to this list by doing in bash:
-#   find -L ~/. -type d -name ".git" >> .list_of_git_repos
-
-# 2018-12-31
 /home/anthony/./Google Drive/code/.git
 /home/anthony/./Google Drive/extra_vnlab/lab/adon/.git
 /home/anthony/./Google Drive/extra_vnlab/lab/lihi/lihi_diego/.git
@@ -15,6 +10,15 @@
 /home/anthony/./Google Drive/teaching/CogPsych/CogPsych_2017/textbook_quizzes/.git
 /home/anthony/./Google Drive/teaching/CogPsych/CogPsych_2017/writing_assignment/.git
 /home/anthony/./Google Drive/teaching/NSB/NSB_2018_Spring/.git
+/home/anthony/./Google Drive/teaching/past_courses/CogPsych/Cog_4114_AllYears/in-class_assignments/perception/color_coords/.git
+/home/anthony/./Google Drive/teaching/past_courses/CogPsych/CogPsych_2017/in-class/color/.git
+/home/anthony/./Google Drive/teaching/past_courses/CogPsych/CogPsych_2017/in-class/images/.git
+/home/anthony/./Google Drive/teaching/past_courses/CogPsych/CogPsych_2017/in-class/surrealism/.git
+/home/anthony/./Google Drive/teaching/past_courses/CogPsych/CogPsych_2017/in-class/words/.git
+/home/anthony/./Google Drive/teaching/past_courses/CogPsych/CogPsych_2017/textbook_quizzes/.git
+/home/anthony/./Google Drive/teaching/past_courses/CogPsych/CogPsych_2017/writing_assignment/.git
+/home/anthony/./Google Drive/teaching/past_courses/NSB/NSB_2018/.git
+/home/anthony/./Google Drive/teaching/past_courses/SP/SP_2018/.git
 /home/anthony/./Google Drive/teaching/SP/SP_2018/.git
 /home/anthony/./Google Drive/teaching/SP/SP_4074_2017/SP_2018/.git
 /home/anthony/./Google Drive/tmp/usb_drive_BACKUP/lab/adon/.git
