@@ -214,3 +214,15 @@ even beep.)"
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+
+
+;; adc added 2019-11-28:
+(elpy-enable)
+(setq elpy-rpc-virtualenv-path 'current)
+
+;; for elpy autocompletion, adc added 2019-11-28
+;; from website: https://github.com/jorgenschaefer/elpy/issues/1359
+(add-hook 'elpy-mode-hook
+(lambda ()
+(set (make-local-variable 'company-backends)
+'((company-dabbrev-code company-yasnippet elpy-company-backend)))))
