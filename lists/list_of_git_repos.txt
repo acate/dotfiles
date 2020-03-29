@@ -1,6 +1,39 @@
 # Convenient list of current git repos.  
 # Append to this list by doing in bash:
-#   find -L ~/. -type d -name ".git" >> .list_of_git_repos
+#   find -L ~/. -type d -name zotero -prune -o -type d -name ".git" >> .list_of_git_repos
+
+# 2020-01-01
+/home/anthony/./Google Drive/code/.git
+/home/anthony/./Google Drive/current_vita/.git
+/home/anthony/./Google Drive/extra_vnlab/lab/adon/.git
+/home/anthony/./Google Drive/extra_vnlab/lab/lihi/lihi_diego/.git
+/home/anthony/./Google Drive/speriments/algorithms_that_think/.git
+/home/anthony/./Google Drive/teaching/activities/video_voting/.git
+/home/anthony/./Google Drive/teaching/CNDM/.git
+/home/anthony/./Google Drive/teaching/code/Canvas/.git
+/home/anthony/./Google Drive/teaching/code/dokuwiki/.git
+/home/anthony/./Google Drive/teaching/CogPsych/Cog_2019/in-class/ic04_autobiographical/.git
+/home/anthony/./Google Drive/teaching/CogPsych/Cog_AllYears/in-class_assignments/attention/saliency_maps/.git
+/home/anthony/./Google Drive/teaching/CogPsych/Cog_AllYears/in-class_assignments/perception/color_choice/.git
+/home/anthony/./Google Drive/teaching/SP/SP_allYears/.git
+/home/anthony/./Google Drive/tmp/usb_drive_BACKUP/lab/adon/.git
+/home/anthony/./Google Drive/tmp/usb_drive_BACKUP/lab/lihi/lihi_10/.git
+/home/anthony/./Google Drive/tmp/usb_drive_BACKUP/lab/lihi/lihi_diego/.git
+/home/anthony/./Google Drive/tmp/usb_drive_BACKUP/lab/steph/NamingApp/.git
+/home/anthony/./Google Drive/VNLab/studies/bgPerception/code/bg_perception_Faces/.git
+/home/anthony/./Google Drive/VNLab/studies/HolesFMRI/.git
+/home/anthony/./Google Drive/VNLab/studies/ipsNumMeta/summaries/ps2017/.git
+/home/anthony/./Google Drive/VNLab/studies/ssor/data/ssor2/.git
+/home/anthony/./Google Drive/VNLab/studies/ssor/data/ssorDiego/ssor/.git
+/home/anthony/./Google Drive/VNLab/studies/ssor/summaries/.git
+/home/anthony/./Google Drive/VNLab/studies/vns/.git
+/home/anthony/./.emacs.d/.git
+/home/anthony/./dotfiles/emacs/.emacs.d/.git
+/home/anthony/./dotfiles/.git
+/home/anthony/./Dropbox/anthony/writing/.git
+/home/anthony/./Dropbox/work/.git
+/home/anthony/./Dropbox/work/code/dotfiles/emacs/.emacs.d/.git
+/home/anthony/./Dropbox/work/code/elisp/.git
 
 # 2018-12-31
 /home/anthony/./Google Drive/code/.git
