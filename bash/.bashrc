@@ -138,3 +138,23 @@ eval "$(pandoc --bash-completion)"
 # Based on advice from https://github.com/kensanata/mastodon-backup#mastodon-archive
 # For using mastodon-archive tool installed using pip3 install mastodon-archive
 export PATH=$PATH:$HOME/.local/bin
+
+# adc added 2020-07-09
+# Based on https://unix.stackexchange.com/questions/86782/run-logout-script-for-non-login-shells
+trap_exit() {
+    . "$HOME/.bash_logout"
+}
+trap trap_exit EXIT
+
+# adc added 2020-07-09
+# Based on https://unix.stackexchange.com/questions/365339/making-pushd-directory-stack-persistent
+if [ -f "$HOME/.dirstack" ]; then
+    source "$HOME/.dirstack"
+
+    for dir in "${tempVar[@]}"; do
+    pushd -n "$dir" >/dev/null
+    done
+
+    unset tempVar
+
+fi
