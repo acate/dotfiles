@@ -152,9 +152,19 @@ if [ -f "$HOME/.dirstack" ]; then
     source "$HOME/.dirstack"
 
     for dir in "${tempVar[@]}"; do
-    pushd -n "$dir" >/dev/null
+
+	
+	# This conditional helps to get rid of some, but annoyingly not all, of the extraneous "~" entries
+	if [ "$dir" != "~" ]; then
+
+	    pushd -n "$dir" >/dev/null
+
+	fi
+	
     done
 
     unset tempVar
 
 fi
+
+
